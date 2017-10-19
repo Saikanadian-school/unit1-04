@@ -1,0 +1,89 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 14}, {100, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "radius_label",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "E2CA12F1-AFCB-4B87-8D88-46B871FA370D",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "radius",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 60}, {100, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_touch_up_inside",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "title" : "calculate",
+          "uuid" : "FDB2AABE-DD2F-4559-8707-EE6D10BE060F",
+          "class" : "Button",
+          "name" : "calculate_touch_up_inside",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 100}, {299, 108}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "answer_label",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "B6C56640-92C2-49B9-96BE-379E35725EF0",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{108, 14}, {191, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{20, 104}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "F59127E0-4606-4A41-AA86-5B77549E9F30",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "radius",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
